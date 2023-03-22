@@ -8,3 +8,5 @@ variable "database_name" {
   default = "dummy"
 }
 variable "env" {}
+variable "no_of_instances" {}
+variable "instance_class" {}
