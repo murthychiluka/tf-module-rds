@@ -52,7 +52,7 @@ resource "aws_rds_cluster_instance" "cluster_instances" {
 }
 
 resource "aws_db_subnet_group" "main" {
-  name       = "${var.env}-rds"
+  name       = "${var.env}-elasticache"
   subnet_ids = var.subnet_ids
 
   tags = merge(
